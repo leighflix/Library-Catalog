@@ -24,9 +24,9 @@ def print_all_books():
 
         value = list(value)
         print("{title}\n"
-              "-| {author}\n"
-              "-| {genre}\n"
-              "-| {status}\n".format(title=key, author=value[1], genre=value[0], status=value[2]))
+              "`| {author}\n"
+              "`| {genre}\n"
+              "`| {status}\n".format(title=key, author=value[1], genre=value[0], status=value[2]))
 
 
 def print_book(title4):
